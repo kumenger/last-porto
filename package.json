@@ -1,6 +1,11 @@
 {
   "name": "mainportofolio",
   "version": "0.1.0",
+
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.14.5"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
