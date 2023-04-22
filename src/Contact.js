@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="col-12">
         <ListGroup>
           <ListGroup.Item>
-            <a
+           <h4> <a
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
               target="_blank"
               rel="noreferrer"
@@ -15,26 +15,28 @@ const Contact = () => {
                 src="https://i.ibb.co/tQF6ftS/kisspng-linkedin-logo-clip-art-linkedin-icons-no-attribution-5ab176800cdbb1-9763056415215796480527.png"
                 id="fcc"
                 height="32px"
-              />
-            </a>
+              />{" "}
+         linkedin profile   
+            </a></h4>  
           </ListGroup.Item>
           <ListGroup.Item>
-            <a
+           <h4> <a
               href="https://www.freecodecamp.org/kumengerbeyene"
               target="_blank"
               rel="noreferrer"
             >
-              {" "}
+            
               <img
                 src="https://i.ibb.co/sKjYKGL/free-Code-Camp-alternative.png"
                 id="fcc"
                 width="227px"
                 height="32px"
-              />
-            </a>
+              />{" "}
+           FreeCodeCamp profile   
+            </a></h4>
           </ListGroup.Item>
           <ListGroup.Item>
-            <a
+           <h4> <a
               href="https://www.codeproject.com/Members/kumeneger"
               target="_blank"
               rel="noreferrer"
@@ -45,30 +47,34 @@ const Contact = () => {
                 width="32px"
                 height="32px"
                 id="code"
-              />
-            </a>
+              />{" "}
+            Code Project profile    
+            </a></h4> 
           </ListGroup.Item>
           <ListGroup.Item>
-            <a href=" https://github.com/kumenger" target="_blank">
+          <h4> <a href=" https://github.com/kumenger" target="_blank">
               <img
                 src="https://i.ibb.co/zVTmHht/Git-Hub-Mark.png"
                 alt="Git-Hub-Mark"
                 width="32px"
                 height="32px"
                 id="github"
-              />
-            </a>
+              />{" "}
+             Github profile  
+            </a></h4> 
           </ListGroup.Item>
           <ListGroup.Item>
-            <p className="">
+            <h4 className="">
+            <img src="https://img.icons8.com/color/48/null/gmail--v1.png"/>{" "}
             <a href="mailto:kumeprog@gmail.com">Send Email</a>
-            </p>
+            </h4>
           </ListGroup.Item>
           <ListGroup.Item>
-            <p className=" ">
+            <h4 className=" ">
               <img src="https://img.icons8.com/color/20/000000/skype--v1.png" />{" "}
-              live:kumeprog
-            </p>
+              <a href="skype:-live:kumeprog-?chat">Start chat</a>
+           
+            </h4>
           </ListGroup.Item>
          
         </ListGroup>

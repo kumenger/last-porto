@@ -4,21 +4,15 @@ const About = () => {
     <div className="">
 
       <div className=" a  ">
-        <div className="row">
-          <div className=" text-center">
-            {' '}
-
-          </div>
-          <br></br><br></br>
-        </div>
-        <div className="row  aboutholder  ">
-          <div className="col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center">
+        
+        <div className="row aboutholder ">
+          <div className=" col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center border-right-0">
             <img
               src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"
               style={{width: '80%', height: '', objectFit: 'contain'}}
             />
           </div>
-          <div className="  col-xs-12   col-s-12  col-md-4  heading-sun ">
+          <div className=" col-xs-12  col-s-12  col-md-4 align-center">
             <p
               className=" "
               style={{letterSpacing: '8px', fontFamily: 'Monoton', color: 'snow'}}
