@@ -47,8 +47,9 @@ const Projects = () => {
             <div
                 className="col-xs-2 col-s-2 col-md-3 col-lg-4"
                 style={{ padding: "2%" }}
+                
             >
-                <Card
+                 <Card
                     style={{
                         width: "340px",
                         height: "300px",
@@ -58,33 +59,22 @@ const Projects = () => {
                     <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/u8-RcGNyWOA"
+                        src="https://www.youtube.com/embed/RmSEo2XIpNM"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                         allowFullScreen="true"
                     ></iframe>
-
                     <Card.Body>
                         <Card.Title className="pink">
-                            REST API Implementation
+                           
+                                   Human resource management (HRM)
                         </Card.Title>
-                        <Button
-                            variant="primary"
-                            target="_black"
-                            href="https://damp-refuge-92088.herokuapp.com/"
-                        >
-                            View Online
-                        </Button>{" "}
-                        <Button
-                            variant="primary"
-                            href="https://github.com/kumenger/api-collection"
-                            target="_black"
-                        >
-                            View Source Code
-                        </Button>
+                      
+                        <Button variant="primary" href="https://github.com/kumenger/employe-tracker" target="_blanck">View Source Code</Button>
                     </Card.Body>
                 </Card>
+               
             </div>
             <div
                 className="col-xs-2 col-s-2 col-md-3 col-lg-4"
@@ -150,7 +140,7 @@ const Projects = () => {
                     ></iframe>
                     <Card.Body>
                         <Card.Title className="pink">
-                            Terminal Based Logo Generator
+                            Logo Generator
                         </Card.Title>
 
                         <Button
@@ -178,7 +168,51 @@ const Projects = () => {
                     <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/2uZ4BrSvvm4"
+                        src="https://www.youtube.com/embed/u8-RcGNyWOA"
+                        title="YouTube video player"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen="true"
+                    ></iframe>
+
+                    <Card.Body>
+                        <Card.Title className="pink">
+                            REST API Implementation
+                        </Card.Title>
+                        <Button
+                            variant="primary"
+                            target="_black"
+                            href="https://damp-refuge-92088.herokuapp.com/"
+                        >
+                            View Online
+                        </Button>{" "}
+                        <Button
+                            variant="primary"
+                            href="https://github.com/kumenger/api-collection"
+                            target="_black"
+                        >
+                            View Source Code
+                        </Button>
+                    </Card.Body>
+                </Card>
+               
+            </div>
+            <div
+                className="col-xs-2 col-s-2 col-md-3 col-lg-4"
+                style={{ padding: "2%" }}
+            >
+                {" "}
+                <Card
+                    style={{
+                        width: "340px",
+                        height: "300px",
+                    }}
+                    className=" "
+                >
+                    <iframe
+                        width="100%"
+                        height="100%"
+                        src="https://www.youtube.com/embed/h3hftRDdBKc"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -186,10 +220,10 @@ const Projects = () => {
                     ></iframe>
                     <Card.Body>
                         <Card.Title className="pink">
-                            discussion forum
+                           FullStack Image AI
                         </Card.Title>
-                        <Button variant="primary">View Online</Button>{" "}
-                        <Button variant="primary">View Source Code</Button>
+                        <Button variant="primary" href="https://imageai.herokuapp.com/" target="_blank">View Online</Button>{" "}
+                        <Button variant="primary" href="https://github.com/Nmargolis00/image-AI" target="_blank">View Source Code</Button>
                     </Card.Body>
                 </Card>
             </div>
@@ -208,7 +242,7 @@ const Projects = () => {
                     <iframe
                         width="100%"
                         height="100%"
-                        src="https://www.youtube.com/embed/2uZ4BrSvvm4"
+                        src="https://www.youtube.com/embed/OQ0eAUbPbHc"
                         title="YouTube video player"
                         frameBorder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -216,40 +250,10 @@ const Projects = () => {
                     ></iframe>
                     <Card.Body>
                         <Card.Title className="pink">
-                            discussion forum
+                        The Weather DashBoard
                         </Card.Title>
-                        <Button variant="primary">View Online</Button>{" "}
-                        <Button variant="primary">View Source Code</Button>
-                    </Card.Body>
-                </Card>
-            </div>
-            <div
-                className="col-xs-2 col-s-2 col-md-3 col-lg-4"
-                style={{ padding: "2%" }}
-            >
-                {" "}
-                <Card
-                    style={{
-                        width: "340px",
-                        height: "300px",
-                    }}
-                    className=" "
-                >
-                    <iframe
-                        width="100%"
-                        height="100%"
-                        src="https://www.youtube.com/embed/2uZ4BrSvvm4"
-                        title="YouTube video player"
-                        frameBorder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen="true"
-                    ></iframe>
-                    <Card.Body>
-                        <Card.Title className="pink">
-                            discussion forum
-                        </Card.Title>
-                        <Button variant="primary">View Online</Button>{" "}
-                        <Button variant="primary">View Source Code</Button>
+                        <Button variant="primary" href="https://kumenger.github.io/weather-application/" target="_black">View Online</Button>{" "}
+                        <Button variant="primary" href="https://github.com/kumenger/weather-application" target="_black">View Source Code</Button>
                     </Card.Body>
                 </Card>
             </div>
