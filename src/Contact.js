@@ -61,8 +61,7 @@ const Contact = () => {
           </ListGroup.Item>
           <ListGroup.Item>
             <p className="">
-              <img src="https://img.icons8.com/color/20/000000/gmail-new.png" />{" "}
-              Kumeprog@gmail.com
+            <a href="mailto:kumeprog@gmail.com">Send Email</a>
             </p>
           </ListGroup.Item>
           <ListGroup.Item>
@@ -71,12 +70,7 @@ const Contact = () => {
               live:kumeprog
             </p>
           </ListGroup.Item>
-          <ListGroup.Item>
-            <p className="">
-              <img src="https://img.icons8.com/color/20/000000/ms-outlook.png" />
-              mekumanfekeman@outlook.com
-            </p>
-          </ListGroup.Item>
+         
         </ListGroup>
       </div>
     </div>

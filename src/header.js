@@ -21,7 +21,7 @@ const Header = () => {
                             <Nav className="ms-auto">
                                 <Nav.Link as={Link}
                                     to="/skills"
-                                    eventKey={3}
+                               
                                     className="">
                                     <p className="navitems btn about ">
                                         Skills
@@ -33,7 +33,7 @@ const Header = () => {
                                     <p className="navitems btn about">Resume</p>
                                 </Nav.Link>
 
-                                <Nav.Link href="#">
+                                <Nav.Link as={Link} to="/award"   >
                                     <p className="navitems btn about">Award</p>
                                 </Nav.Link>
                                 <Nav.Link as={Link}
@@ -45,7 +45,7 @@ const Header = () => {
                                 </Nav.Link>
                                 <Nav.Link as={Link}
                                     to="/projects"
-                                    eventKey={2}>
+                                >
                                     <p className="navitems btn about">
                                         Projects
                                     </p>

@@ -5,6 +5,7 @@ import Skills from './skils';
 import React from 'react';
 import Contact from './Contact';
 import Resume from './resume';
+import Award from './award'
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 
@@ -20,6 +21,7 @@ const App=()=> {
         <Route path="/skills" element={<Skills />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/resume" element={<Resume />} />
+        <Route path="/award" element={<Award />} />
       </Routes>
     </Router>
 

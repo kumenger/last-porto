@@ -24,10 +24,10 @@ const About = () => {
               style={{letterSpacing: '8px', fontFamily: 'Monoton', color: 'snow'}}
             >
               {' '}
-             Hello <span className="pink">!</span>
+             Hello <span className="pink2">!</span>
             </p>
             <p className=" abouttext">
-              I'm{' '} <span className="pink" >kumenger beyene</span> {' '}
+              I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}
               <span >
                  a fullstack Web,Mobile Developer{' '}
               </span>{' '}
@@ -49,9 +49,9 @@ const About = () => {
                 Diversity visa lottery
               </a>{' '}
               that gives you the opportunity to{' '}
-              <span className="pink">Permanent Resident Card</span>.
+              <span className="pink2">Permanent Resident Card</span>.
                Graduated in Computer Science and Information
-              Techonolgy,<strong className="pink">Bsc</strong> at{' '}
+              Techonolgy,<strong className="pink2">Bsc</strong> at{' '}
               <a
                 href="https://www.amu.edu.et/"
                 target="_blank"
