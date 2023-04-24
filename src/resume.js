@@ -4,7 +4,7 @@ const Resume = () => {
     <div style={{padding:"20px",color:"snow"}} className='container-fluid '> 
      <h1>KUMENGER BEYENE</h1>
      <h2>DENVER, CO | KUMEDEVE@GMAIL.COM </h2>
-     <p>OBJECTIVE:Innovative optimized solution seeker. Excited to be at the deployment phase of my new career as a Frontend developer. I am ambitious, adventurous and highly focused.</p>
+     
     
         <ul>
         Over 3+ years of professional exposure in JavaScript technology such as React JS , MongoDB, ORM,MVC,Mysql,Express.js, Node JS and third-party and server-side API.

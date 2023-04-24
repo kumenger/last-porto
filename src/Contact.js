@@ -1,12 +1,12 @@
 import React from "react";
-import { ListGroup } from "react-bootstrap";
+import { Badge, ListGroup } from "react-bootstrap";
 const Contact = () => {
   return (
     <div className="row">
       <div className="col-12">
         <ListGroup>
           <ListGroup.Item>
-           <h4> <a
+           <h5> <a
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
               target="_blank"
               rel="noreferrer"
@@ -16,11 +16,11 @@ const Contact = () => {
                 id="fcc"
                 height="32px"
               />{" "}
-         linkedin profile   
-            </a></h4>  
+       <Badge bg="secondary">linkedin profile   </Badge>  
+            </a></h5>  
           </ListGroup.Item>
           <ListGroup.Item>
-           <h4> <a
+           <h5> <a
               href="https://www.freecodecamp.org/kumengerbeyene"
               target="_blank"
               rel="noreferrer"
@@ -29,14 +29,14 @@ const Contact = () => {
               <img
                 src="https://i.ibb.co/sKjYKGL/free-Code-Camp-alternative.png"
                 id="fcc"
-                width="227px"
-                height="32px"
+                width="137px"
+                height="22px"
               />{" "}
-           FreeCodeCamp profile   
-            </a></h4>
+        <Badge bg="secondary"> FreeCodeCamp profile </Badge>    
+            </a></h5>
           </ListGroup.Item>
           <ListGroup.Item>
-           <h4> <a
+           <h5> <a
               href="https://www.codeproject.com/Members/kumeneger"
               target="_blank"
               rel="noreferrer"
@@ -48,11 +48,11 @@ const Contact = () => {
                 height="32px"
                 id="code"
               />{" "}
-            Code Project profile    
-            </a></h4> 
+         <Badge bg="secondary"> Code Project profile   </Badge>   
+            </a></h5> 
           </ListGroup.Item>
           <ListGroup.Item>
-          <h4> <a href=" https://github.com/kumenger" target="_blank">
+          <h5> <a href=" https://github.com/kumenger" target="_blank">
               <img
                 src="https://i.ibb.co/zVTmHht/Git-Hub-Mark.png"
                 alt="Git-Hub-Mark"
@@ -60,21 +60,21 @@ const Contact = () => {
                 height="32px"
                 id="github"
               />{" "}
-             Github profile  
-            </a></h4> 
+             <Badge bg="secondary">Github profile  </Badge>
+            </a></h5> 
           </ListGroup.Item>
           <ListGroup.Item>
-            <h4 className="">
+            <h5 className="">
             <img src="https://img.icons8.com/color/48/null/gmail--v1.png"/>{" "}
-            <a href="mailto:kumeprog@gmail.com">Send Email</a>
-            </h4>
+            <a href="mailto:kumeprog@gmail.com"><Badge bg="secondary">Send Email</Badge></a>
+            </h5>
           </ListGroup.Item>
           <ListGroup.Item>
-            <h4 className=" ">
+            <h5 className=" ">
               <img src="https://img.icons8.com/color/20/000000/skype--v1.png" />{" "}
-              <a href="skype:-live:kumeprog-?chat">Start chat</a>
+              <a href="skype:-live:kumeprog-?chat"><Badge bg="secondary">Start chat</Badge></a>
            
-            </h4>
+            </h5>
           </ListGroup.Item>
          
         </ListGroup>

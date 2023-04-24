@@ -43,7 +43,7 @@ const Skills=()=>{
       ]}/>
     
    
-<a className='text-light' href='https://icons8.com/' target="_black">Thanks to Icons'8 </a>
+<a style={{color:'gold'}} href='https://icons8.com/' target="_black">Thanks to Icons'8 </a>
 
   </div>);
 };

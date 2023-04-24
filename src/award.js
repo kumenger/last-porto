@@ -11,7 +11,7 @@ const Award = () => {
               target="_blank"
               rel="noreferrer"
             >
-            <h4 className="about"> Universtity Of Denver</h4>
+            <h5 className="about"> Universtity Of Denver</h5>
             </a>
           </ListGroup.Item>
          
@@ -22,28 +22,28 @@ const Award = () => {
               rel="noreferrer"
             >
               {" "}
-           <h4 className="about">Univertsy of Helsiniki</h4>  
+           <h5 className="about">Univertsy of Helsiniki</h5>  
             </a>
           </ListGroup.Item>
         
           <ListGroup.Item>
           <a href="https://www.udemy.com/certificate/UC-8a95409b-7d4d-4d8b-a6dc-8332f733dd33/" target="_blank">
-      <h4 className="about">Modern React with Readux (udemy)</h4>
+      <h5 className="about">Modern React with Readux (udemy)</h5>
             </a>
           </ListGroup.Item>
           <ListGroup.Item>
           <a href="   https://www.freecodecamp.org/certification/kumengerbeyene/responsive-web-design" target="_blank">
-       <h4 className="about"> Responsive web design (freeCodeCamp)</h4>  
+       <h5 className="about"> Responsive web design (freeCodeCamp)</h5>  
             </a>
           </ListGroup.Item>
           <ListGroup.Item>
           <a href=" https://www.freecodecamp.org/certification/kumengerbeyene/javascript-algorithms-and-data-structures" target="_blank">
-   <h4 className="about">Data Structure and algorithms(freeCodeCamp)</h4> 
+   <h5 className="about">Data Structure and algorithms(freeCodeCamp)</h5> 
             </a>
           </ListGroup.Item>
           <ListGroup.Item>
           <a href="  https://www.freecodecamp.org/certification/kumengerbeyene/front-end-development-libraries" target="_blank">
- <h4 className="about">Front End Development(freeCodeCamp)</h4> 
+ <h5 className="about">Front End Development(freeCodeCamp)</h5> 
             </a>
           </ListGroup.Item>
           <ListGroup.Item>
@@ -53,7 +53,7 @@ const Award = () => {
               rel="noreferrer"
             >
               {" "}
-           <h4 className="about">Arba Minch Universty</h4>  
+           <h5 className="about">Arba Minch Universty</h5>  
             </a>
           </ListGroup.Item>
         

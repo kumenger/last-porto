@@ -23,7 +23,7 @@ const About = () => {
             <p className=" abouttext">
               I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}
               <span >
-                 a fullstack Web,Mobile Developer{' '}
+                 a fullstack Web Developer{' '}
               </span>{' '}
               from{' '}
               <a
