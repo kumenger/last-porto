@@ -222,7 +222,7 @@ const Projects = () => {
                         <Card.Title className="pink">
                            FullStack Image AI
                         </Card.Title>
-                        <Button variant="primary" href="https://imageai.herokuapp.com/" target="_blank">View Online</Button>{" "}
+                        <Button variant="primary" href="https://kumesimage.herokuapp.com/" target="_blank">View Online</Button>{" "}
                         <Button variant="primary" href="https://github.com/Nmargolis00/image-AI" target="_blank">View Source Code</Button>
                     </Card.Body>
                 </Card>

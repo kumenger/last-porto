@@ -32,14 +32,15 @@ const Skills=()=>{
       
       
       ]}/>{"  "}
-        <SkillsComponent title={'DataBase and more...'} skills={[
+        <SkillsComponent title={'DataBase, Integration and Deployment'} skills={[
         {src: 'https://img.icons8.com/ios-filled/50/null/mysql.png', skilltype: 'Mysql'},
         {src: 'https://img.icons8.com/color/48/000000/mongodb.png', skilltype: 'MongoDb'},
         {src: 'https://img.icons8.com/color/48/000000/json--v1.png', skilltype: 'Json'}, 
         {src: 'https://img.icons8.com/color/48/000000/git.png', skilltype: 'Git'},
         {src: 'https://img.icons8.com/color/48/000000/amazon-web-services.png', skilltype: 'AWS'},
-        {src: 'https://img.icons8.com/ios-filled/50/null/github.png', skilltype: 'GitHub'}
-     
+        {src: 'https://img.icons8.com/ios-filled/50/null/github.png', skilltype: 'GitHub'},
+        {src: 'https://img.icons8.com/color/48/null/heroku.png', skilltype: 'Heroku'}
+       
       ]}/>
     
    
