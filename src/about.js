@@ -6,9 +6,11 @@ const About = () => {
       <div className=" a  ">
         
         <div className="row aboutholder ">
-          <div className=" col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center border-right-0">
+          <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center border-right-0">
             <img
-              src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"
+           // src='https://i.ibb.co/c33PBVq/20230504-190010.jpg" alt="20230504-190010'
+            // src='https://i.ibb.co/dDK81RG/20230504-185859.jpg" alt="20230504-185859'
+            src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"
               style={{width: '80%', height: '', objectFit: 'contain'}}
             />
           </div>
