@@ -8,16 +8,18 @@ const About = () => {
         <div className="row aboutholder ">
           <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center border-right-0">
             <img
+            src="https://i.ibb.co/db5Vf7p/fotor-2023-5-4-23-29-2.png"
+            //src='https://i.ibb.co/4S32FYT/fotor-2023-5-4-23-26-36.jpg'
            // src='https://i.ibb.co/c33PBVq/20230504-190010.jpg" alt="20230504-190010'
             // src='https://i.ibb.co/dDK81RG/20230504-185859.jpg" alt="20230504-185859'
-            src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"
-              style={{width: '80%', height: '', objectFit: 'contain'}}
+           // src="https://i.ibb.co/9tGLc6C/My-project-5-modified.png"
+              style={{width: '70%', height: '', objectFit: 'contain'}}
             />
           </div>
           <div className=" col-xs-12  col-s-12  col-md-4 align-center">
             <p
               className=" "
-              style={{letterSpacing: '8px', fontFamily: 'Monoton', color: 'snow'}}
+              style={{letterSpacing: '6px', fontFamily: 'Monoton', color: 'snow'}}
             >
               {' '}
              Hello <span className="pink2">!</span>
@@ -44,7 +46,7 @@ const About = () => {
               >
                 Diversity visa lottery
               </a>{' '}
-              that gives you the opportunity to{' '}
+              that gives you the opportunity to the{' '}
               <span className="pink2">Permanent Resident Card</span>.
                Graduated in Computer Science and Information
               Techonolgy,<strong className="pink2">Bsc</strong> at{' '}

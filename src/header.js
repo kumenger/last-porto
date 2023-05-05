@@ -11,7 +11,7 @@ const Header = () => {
                     <Container>
                         <Navbar.Brand as={Link}
                             to="/">
-                            <p className="navitems    about "
+                            <p className="navitems  about "
                                 eventKey={1}>
                                 About
                             </p>
