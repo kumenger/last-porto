@@ -30,7 +30,7 @@ const Projects = () => {
                         <Button
                             variant="primary"
                             target="_black"
-                            href="https://scary-eyeballs-76816.herokuapp.com/"
+                            href="https://kumequitsmoking.herokuapp.com/"
                         >
                             View Online
                         </Button>{" "}
