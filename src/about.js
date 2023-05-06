@@ -6,7 +6,7 @@ const About = () => {
       <div className=" a  ">
         
         <div className="row aboutholder ">
-          <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center border-right-0">
+          <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center  " style={{borderRight:"2px solid snow"}}>
             <img
             src="https://i.ibb.co/db5Vf7p/fotor-2023-5-4-23-29-2.png"
             //src='https://i.ibb.co/4S32FYT/fotor-2023-5-4-23-26-36.jpg'
@@ -16,13 +16,13 @@ const About = () => {
               style={{width: '70%', height: '', objectFit: 'contain'}}
             />
           </div>
-          <div className=" col-xs-12  col-s-12  col-md-4 align-center">
+          <div className="  col-xs-12  col-s-12  col-md-4 align-center heading-sun " style={{paddingLeft:"30px"}}>
             <p
               className=" "
-              style={{letterSpacing: '6px', fontFamily: 'Monoton', color: 'snow'}}
+              style={{letterSpacing: '6px', fontFamily: 'Monoton', color: 'rgb(243, 200, 243)',}}
             >
               {' '}
-             Hello <span className="pink2">!</span>
+             Wellcome <img src="https://img.icons8.com/color/48/null/man-raising-hand-icon.png"/>
             </p>
             <p className="abouttext">
               I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}

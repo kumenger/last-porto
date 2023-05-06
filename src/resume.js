@@ -1,7 +1,7 @@
 import React from 'react';
 const Resume = () => {
   return ( 
-    <div style={{padding:"20px",color:"snow"}} className='container-fluid '> 
+    <div style={{padding:"20px",color:"snow"}} className='container '> 
      <h1>KUMENGER BEYENE</h1>
      <h2>DENVER, CO | KUMEDEVE@GMAIL.COM </h2>
      
