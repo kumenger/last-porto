@@ -27,16 +27,10 @@ const About = () => {
             <p className="abouttext">
               I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}
               <span >
-                 a fullstack Web Developer{' '}
+                 a fullstack  Developer{' '}
               </span>{' '}
-              from{' '}
-              <a
-                href="https://en.wikipedia.org/wiki/Ethiopia"
-                target="_blank"
-                className="link" rel="noreferrer"
-              >
-                Ethiopia,
-              </a>{' '}
+            
+             
 
               one of the lucky ones to won the{' '}
               <a
