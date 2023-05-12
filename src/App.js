@@ -23,6 +23,7 @@ const App=()=> {
         <Route path="/resume" element={<Resume />} />
         <Route path="/award" element={<Award />} />
       </Routes>
+      
     </Router>
 
   );

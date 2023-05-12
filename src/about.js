@@ -1,9 +1,9 @@
 import React from 'react';
 const About = () => {
   return (
-    <div className="">
 
-      <div className=" a  ">
+
+      <div className=" a   " >
         
         <div className="row aboutholder ">
           <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center  " style={{borderRight:"2px solid snow"}}>
@@ -56,8 +56,8 @@ const About = () => {
         </div>
 
       </div>
-
-    </div>
+    
+  
   );
 };
 export default About;
