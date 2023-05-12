@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.js": "/kumenger/last-porto/static/js/main.852b925e.js",
-    "index.html": "/kumenger/last-porto/index.html",
-    "main.852b925e.js.map": "/kumenger/last-porto/static/js/main.852b925e.js.map"
+    "main.js": "/last-porto/static/js/main.852b925e.js",
+    "index.html": "/last-porto/index.html",
+    "main.852b925e.js.map": "/last-porto/static/js/main.852b925e.js.map"
   },
   "entrypoints": [
     "static/js/main.852b925e.js"
