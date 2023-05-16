@@ -2,6 +2,7 @@ import {Card, Button} from "react-bootstrap"
 const VideoComponet = ({projectDetails}) => { // videoSrc,projectName,deployedUrl,sourceCode
     return (
         <div className="container-fluid" >
+            <br></br>
         <div className="row ">
            
                 { 
