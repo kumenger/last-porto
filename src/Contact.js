@@ -64,11 +64,7 @@ const Contact = () => {
               />{" "}
              <Badge bg="secondary">Github profile  </Badge>
             </a></h5> 
-            <h5 className=" ">
-              <img src="https://img.icons8.com/color/20/000000/skype--v1.png" />{" "}
-              <a href="skype:-live:kumeprog-?chat"><Badge bg="secondary">Start chat</Badge></a>
            
-            </h5>
           </ListGroup.Item>
           
          

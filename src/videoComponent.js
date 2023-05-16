@@ -5,7 +5,7 @@ const VideoComponet = ({projectDetails}) => { // videoSrc,projectName,deployedUr
         <div className="row ">
            
                 { 
-                projectDetails.map((project) => (<div className="col-xs-12 col-s-12 col-md-6 col-l-4 col-xl-4 ">
+                projectDetails.map((project) => (<div className="col-xs-12 col-s-6 col-md-6 col-l-4 col-xl-4 ">
                     <Card style={
                             {
                                 width: "340px",
