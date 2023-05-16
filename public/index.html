@@ -38,6 +38,17 @@
     .info {
       font-family: "fantasy"
     }
+    .footer{
+      display: flex;
+      justify-content: space-around;
+      position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 2.5rem;
+  background: #586683;
+      opacity: 0.8;
+    }
+  
 
     .c {
 
@@ -167,13 +178,14 @@
     .navitems {
       font-size: 1.2rem;
       color: rgb(199, 183, 196);
-
+      border-right: 1px solid snow;
 
 
     }
 
     .about:hover {
       color: rgb(136, 101, 218);
+     
     }
 
     @media only screen and (min-width: 400px) {
@@ -218,16 +230,7 @@
 
     }
 
-    .a {
-
-      height: 100vh;
-
-
-
-
-
-
-    }
+    
 
     .link {
       color: #d8ced7;
@@ -293,22 +296,20 @@
     }
 
     body {
-
+      position: relative;
+      min-height: 100vh;
 
       padding-top: 100px;
-   min-height: 100vh;
+ 
       background-image: linear-gradient(to bottom right,
           #212631e0, rgba(26, 29, 29, 0.425))
     }
-    .footer{
-      margin-top: auto;
-      margin-bottom: 0px;
-    }
+ 
   </style>
   <title>Kumenger Beyene</title>
 </head>
 
-<body>
+<body >
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <!--
@@ -322,5 +323,6 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 </body>
+
 
 </html>

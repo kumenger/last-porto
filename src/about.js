@@ -6,7 +6,7 @@ const About = () => {
       <div className=" a   " >
         
         <div className="row aboutholder ">
-          <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center  " style={{borderRight:"2px solid snow"}}>
+          <div className="  col-xs-12 col-s-12 offset-md-2 col-md-3 bounce-1  d-flex justify-content-center  " style={{borderRight:"2px solid pink"}}>
             <img
             src="https://i.ibb.co/db5Vf7p/fotor-2023-5-4-23-29-2.png"
             //src='https://i.ibb.co/4S32FYT/fotor-2023-5-4-23-26-36.jpg'

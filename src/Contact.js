@@ -1,9 +1,11 @@
 import React from "react";
-import { Badge, ListGroup } from "react-bootstrap";
+import { Badge, Button, ListGroup } from "react-bootstrap";
+import Form from 'react-bootstrap/Form';
 const Contact = () => {
   return (
-    <div className="row">
-      <div className="col-12">
+    <div className="row text-info">
+      <div className="col-xs-12 col-s-12 col-m-6 col-l-6">
+        <h3 className="text-center text-info">Professional Links</h3>
         <ListGroup>
           <ListGroup.Item>
            <h5> <a
@@ -62,22 +64,36 @@ const Contact = () => {
               />{" "}
              <Badge bg="secondary">Github profile  </Badge>
             </a></h5> 
-          </ListGroup.Item>
-          <ListGroup.Item>
-            <h5 className="">
-            <img src="https://img.icons8.com/color/48/null/gmail--v1.png"/>{" "}
-            <a href="mailto:kumeprog@gmail.com"><Badge bg="secondary">Send Email</Badge></a>
-            </h5>
-          </ListGroup.Item>
-          <ListGroup.Item>
             <h5 className=" ">
               <img src="https://img.icons8.com/color/20/000000/skype--v1.png" />{" "}
               <a href="skype:-live:kumeprog-?chat"><Badge bg="secondary">Start chat</Badge></a>
            
             </h5>
           </ListGroup.Item>
+          
          
         </ListGroup>
+      </div>
+      <div className="col-xs-12 col-s-12 col-m-6 col-l-6">
+      <h3 className="text-center text-info">Send me Message</h3>
+      <Form>
+      <Form.Group  controlId="exampleForm.ControlInput1">
+        <Form.Label>Name</Form.Label>
+        <Form.Control  placeholder="your name" />
+      </Form.Group>
+      <Form.Group  controlId="exampleForm.ControlInput2">
+        <Form.Label>Email address</Form.Label>
+        <Form.Control type="email" placeholder="name@example.com" />
+      </Form.Group>
+      <Form.Group  controlId="exampleForm.ControlTextarea1">
+        <Form.Label>Your Message</Form.Label>
+        <Form.Control as="textarea" rows={5} />
+      </Form.Group>
+      <br></br>
+      <Form.Group>
+        <Button>Send Message</Button>
+      </Form.Group>
+    </Form>
       </div>
     </div>
   );

@@ -12,9 +12,9 @@ const Header = () => {
                         <Navbar.Brand 
                             >
                                 <Nav.Link as={Link} to="/"  eventKey={1}>
-                                      <p className="navitems  about "
+                                      <p className="navitems btn about "
                                 >
-                                About
+                                ABOUT
                             </p>
                                 </Nav.Link>
                           
@@ -27,7 +27,7 @@ const Header = () => {
                                     eventKey={2}
                                     className="">
                                     <p className="navitems btn about ">
-                                        Skills
+                                        SKILLS
                                     </p>
                                 </Nav.Link>
                                 <Nav.Link className=""
@@ -35,17 +35,15 @@ const Header = () => {
                                     as={Link}
                                       eventKey={3}
                                     to="/resume">
-                                    <p className="navitems btn about">Resume</p>
+                                    <p className="navitems btn about">RESUME</p>
                                 </Nav.Link>
 
-                                <Nav.Link as={Link}  eventKey={4}  to="/award"   >
-                                    <p className="navitems btn about">Award</p>
-                                </Nav.Link>
+                               
                                 <Nav.Link as={Link}
                                     to="/contact"
                                     eventKey={5}>
                                     <p className="navitems btn about ">
-                                        Contact
+                                        CONTACT
                                     </p>
                                 </Nav.Link>
                                 <Nav.Link as={Link}
@@ -53,7 +51,7 @@ const Header = () => {
                                     eventKey={6}
                                 >
                                     <p className="navitems btn about">
-                                        Projects
+                                        PROJECTS
                                     </p>
                                 </Nav.Link>
                             </Nav>
