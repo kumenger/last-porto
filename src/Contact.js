@@ -30,7 +30,43 @@ const Contact = () => {
     }
     return (
         <div className="container row text-info">
-            <div className="col-xs-12 col-s-12 col-m-6 col-l-6">
+            <div className="offset-md-2 col-xs-12 col-s-12 col-md-10 col-l-12 text-center">
+                <h3 className="text-center text-info">Send me Message</h3>
+                <Form>
+                    <Form.Group controlId="exampleForm.ControlInput1">
+                        <Form.Label>Name</Form.Label>
+                        <Form.Control placeholder="your name"
+                            value={name}
+                            onChange={
+                                (e) => setName(e.target.value)
+                            }/>
+                    </Form.Group>
+                    <Form.Group controlId="exampleForm.ControlInput2">
+                        <Form.Label>Email address</Form.Label>
+                        <Form.Control type="email" placeholder="name@example.com"
+                            value={email}
+                            onChange={
+                                (e) => setEmail(e.target.value)
+                            }/>
+                    </Form.Group>
+                    <Form.Group controlId="exampleForm.ControlTextarea1">
+                        <Form.Label>Your Message</Form.Label>
+                        <Form.Control as="textarea"
+                            rows={5}
+                            value={message}
+                            onChange={
+                                (e) => setMessage(e.target.value)
+                            }/>
+                    </Form.Group>
+                    <br></br>
+                    <Form.Label className="text-white text-center">
+                        {error}</Form.Label>
+                    <Form.Group>
+                        <Button onClick={handleMessageSent}>Send Message</Button>
+                    </Form.Group>
+                </Form>
+            </div>
+            {/* <div className="col-xs-12 col-s-12 col-md-4 col-l-6">
                 <h3 className="text-center text-info">Professional Links</h3>
                 <ListGroup>
                     <ListGroup.Item>
@@ -77,43 +113,8 @@ const Contact = () => {
 
 
                 </ListGroup>
-            </div>
-            <div className="col-xs-12 col-s-12 col-m-6 col-l-6">
-                <h3 className="text-center text-info">Send me Message</h3>
-                <Form>
-                    <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label>Name</Form.Label>
-                        <Form.Control placeholder="your name"
-                            value={name}
-                            onChange={
-                                (e) => setName(e.target.value)
-                            }/>
-                    </Form.Group>
-                    <Form.Group controlId="exampleForm.ControlInput2">
-                        <Form.Label>Email address</Form.Label>
-                        <Form.Control type="email" placeholder="name@example.com"
-                            value={email}
-                            onChange={
-                                (e) => setEmail(e.target.value)
-                            }/>
-                    </Form.Group>
-                    <Form.Group controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Your Message</Form.Label>
-                        <Form.Control as="textarea"
-                            rows={5}
-                            value={message}
-                            onChange={
-                                (e) => setMessage(e.target.value)
-                            }/>
-                    </Form.Group>
-                    <br></br>
-                    <Form.Label className="text-white text-center">
-                        {error}</Form.Label>
-                    <Form.Group>
-                        <Button onClick={handleMessageSent}>Send Message</Button>
-                    </Form.Group>
-                </Form>
-            </div>
+            </div> */}
+          
         </div>
     );
 };
