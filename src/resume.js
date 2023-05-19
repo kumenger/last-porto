@@ -2,8 +2,8 @@ import React from 'react';
 import { ListGroup } from "react-bootstrap";
 const Resume = () => {
   return ( 
-    <div style={{padding:"20px",color:"snow"}} className='container '> 
-     <h1>KUMENGER BEYENE</h1>
+    <div style={{color: "rgb(204, 194, 233)"}} className='container-fluid row abouttext '> 
+    <div className='col-xs-12 col-s-12 offset-md-1 col-md-5 ' > <h1>KUMENGER BEYENE</h1>
      <h2>DENVER, CO | KUMEDEVE@GMAIL.COM </h2>
      
     
@@ -23,9 +23,10 @@ const Resume = () => {
         Professional experience in Information Technology with extensive experience in application development using back-end technologies.
         </ul>
       <h3> Updated Resume? <a style={{color:'gold'}} href='https://docs.google.com/document/d/1cl7DyT_hCOoKqk6-ePuOEFQXXRywGwTg/edit?usp=sharing&ouid=102113305559518995439&rtpof=true&sd=true' target='_blank'>Here</a></h3>
-      <h3 className='text-center' style={{color:'gold'}}>  Credentials</h3>
-      <div className="col-12">
-        <ListGroup className=" ">
+     </div>
+      <div className="col-xs-12 col-s-12  col-md-6 ">
+      <h3 className='text-center' style={{color:'gold'}}>Credentials</h3>
+        <ListGroup style={{backgroundColor:"red"}}>
           <ListGroup.Item>
             <a
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"

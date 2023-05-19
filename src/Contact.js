@@ -29,9 +29,9 @@ const Contact = () => {
         }
     }
     return (
-        <div className="container row text-info">
-            <div className="offset-md-2 col-xs-12 col-s-12 col-md-10 col-l-12 text-center">
-                <h3 className="text-center text-info">Send me Message</h3>
+        <div className="container row  " style={{color:"navy"}}>
+            <div className=" col-xs-12 col-s-12 col-md-8 col-l-12 text-center">
+                <h3 className="text-center ">Send me Message</h3>
                 <Form>
                     <Form.Group controlId="exampleForm.ControlInput1">
                         <Form.Label>Name</Form.Label>
@@ -62,12 +62,12 @@ const Contact = () => {
                     <Form.Label className="text-white text-center">
                         {error}</Form.Label>
                     <Form.Group>
-                        <Button onClick={handleMessageSent}>Send Message</Button>
+                        <Button onClick={handleMessageSent} style={{background:"navy"}}>Send Message</Button>
                     </Form.Group>
                 </Form>
             </div>
-            {/* <div className="col-xs-12 col-s-12 col-md-4 col-l-6">
-                <h3 className="text-center text-info">Professional Links</h3>
+            <div className="col-xs-12 col-s-12 col-md-4 col-l-6">
+                <h3 className="text-center" >Professional Links</h3>
                 <ListGroup>
                     <ListGroup.Item>
                         <h5>
@@ -113,7 +113,7 @@ const Contact = () => {
 
 
                 </ListGroup>
-            </div> */}
+            </div>
           
         </div>
     );

@@ -26,7 +26,7 @@ let projectCollection = [
         sourceCode: "https://github.com/kumenger/logo-creater"
     }, {
         videoSrc: "https://www.youtube.com/embed/u8-RcGNyWOA",
-        projectName: "REST(crud) API Implementation",
+        projectName: "RESTful API Implementation",
         deployedUrl: "https://damp-refuge-92088.herokuapp.com/",
         sourceCode: "https://github.com/kumenger/api-collection"
     }, {

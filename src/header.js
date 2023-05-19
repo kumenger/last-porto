@@ -6,13 +6,13 @@ import {Link} from 'react-router-dom'
 const Header = () => {
     return (
         <div className="container">
-            <div className="">
+           
                 <Navbar collapseOnSelect expand="lg" className="c ">
                     <Container>
                         <Navbar.Brand 
                             >
                                 <Nav.Link as={Link} to="/"  eventKey={1}>
-                                      <p className="navitems btn about "
+                                      <p className=" navitems btn about "
                                 >
                                 ABOUT
                             </p>
@@ -58,7 +58,7 @@ const Header = () => {
                         </Navbar.Collapse>
                     </Container>
                 </Navbar>
-            </div>
+           
         </div>
     )
 }

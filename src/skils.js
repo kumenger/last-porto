@@ -32,8 +32,12 @@ const Skills = () => {
                             skilltype: 'css'
                         }, {
                             src: 'https://img.icons8.com/color/48/null/material-ui.png',
-                            skilltype: 'material-ui'
+                            skilltype: 'MUI'
                         },
+                        {
+                       src:"https://img.icons8.com/color/48/sass.png",
+                       skilltype:"SASS"
+                        }
 
 
                     ]
@@ -64,6 +68,9 @@ const Skills = () => {
                         }, {
                             src: 'https://img.icons8.com/ios/50/null/api-settings.png',
                             skilltype: 'API'
+                        },{
+                            src:"https://img.icons8.com/color/48/apollo.png",
+                            skilltype:"Apollo Server"
                         }
 
 
@@ -96,6 +103,9 @@ const Skills = () => {
                         }, {
                             src: 'https://img.icons8.com/color/48/null/heroku.png',
                             skilltype: 'Heroku'
+                        },{
+                            src:"https://img.icons8.com/color/48/gitlab.png",
+                            skilltype:"GitLab"
                         }
 
                     ]
