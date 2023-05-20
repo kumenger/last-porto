@@ -1,7 +1,7 @@
 import {Card, Figure} from 'react-bootstrap';
 import React from 'react'
 const SkillsComponent = ({title, skills}) => {
-  return (<div>
+  return (<div >
     <Card >
       <Card.Body>
         <Card.Title>
@@ -12,7 +12,7 @@ const SkillsComponent = ({title, skills}) => {
             <Figure>
               <Figure.Image src={skill.src}/>
               <Figure.Caption >{skill.skilltype}</Figure.Caption>
-           <p style={{visibility:'hidden'}}> hkahdjshjd</p>
+           <p style={{visibility:'hidden'}}> kumeprog</p>
             </Figure>
                
           ))}
