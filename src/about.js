@@ -27,22 +27,13 @@ const About = () => {
             <p className="abouttext">
               I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}
               <span >
-                 a Frontend,Fullstack developer for Over 3+ years of professional exposure.{' '}
+                 a Fullstack web developer having  specialization in <span className="pink2" > back end & front end development </span>for Over 4+ years of professional exposure.{' '}
               </span>{' '}
             
              
-<br></br>
-              one of the lucky ones to won the{' '}
-              <a
-                href="https://en.wikipedia.org/wiki/Diversity_Immigrant_Visa"
-                target="_black"
-                className="link"
-              >
-                Diversity visa lottery
-              </a>{' '}
-              that gives you the opportunity to the{' '}
-              <span className="pink2">Permanent Resident Card</span>.
-               graduated in computer science and information
+
+             .
+               Graduated in computer science and information
               techonolgy,<strong className="pink2">Bsc</strong> at{' '}
               <a
                 href="https://www.amu.edu.et/"
@@ -52,7 +43,7 @@ const About = () => {
                 <font>Arba Minch University</font>
               </a>{' '}
             </p>
-            <u>
+            <ul style={{fontSize:"18px"}}>
               <li> <a  className="link"
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
               target="_blank"
@@ -91,7 +82,7 @@ Data Structure and algorithms(freeCodeCamp)
               {" "}
        Arba Minch Universty 
             </a></li>
-            </u>
+            </ul>
             
           </div>
         </div>

@@ -7,8 +7,8 @@ const Resume = () => {
      <h2>DENVER, CO | KUMEDEVE@GMAIL.COM </h2>
      
     
-        <ul>
-        Over 3+ years of professional exposure in JavaScript technology such as React JS , MongoDB, ORM,MVC,Mysql,Express.js, Node JS and third-party and server-side API.
+        <ul >
+        Over 4+ years of professional exposure in JavaScript technology such as React JS , MongoDB, ORM,MVC,Mysql,Express.js, Node JS and third-party and server-side API.
         </ul>
         <ul>        
         Expertise in developing web pages using HTML5, CSS3, SEMANTIC UI, SASS, AXIOS, Object Oriented Java script, ES6, AJAX, JSON, XML.
