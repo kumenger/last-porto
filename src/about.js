@@ -28,12 +28,8 @@ const About = () => {
               I'm{' '} <span className="pink2" >kumenger beyene</span> {' '}
               <span >
                  a Fullstack web developer having  specialization in <span className="pink2" > back end & front end development </span>for Over 4+ years of professional exposure.{' '}
-              </span>{' '}
-            
-             
-
-             .
-               Graduated in computer science and information
+              </span>
+             Graduated in computer science and information
               techonolgy,<strong className="pink2">Bsc</strong> at{' '}
               <a
                 href="https://www.amu.edu.et/"
@@ -43,6 +39,7 @@ const About = () => {
                 <font>Arba Minch University</font>
               </a>{' '}
             </p>
+            <p  style={{ fontFamily: 'Monoton', color: 'rgb(243, 200, 243)',}}>Credentials/Educational Recors</p>
             <ul style={{fontSize:"18px"}}>
               <li> <a  className="link"
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
