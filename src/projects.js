@@ -14,6 +14,13 @@ let projectCollection = [
         sourceCode: "https://github.com/kumenger/employe-tracker"
     },
     {
+
+        videoSrc: "https://www.youtube.com/embed/Sl7dnRNDhiE",
+        projectName: "FullStack Book App powerd by  GraphQL",
+        deployedUrl: "https://kume-book-app.herokuapp.com/",
+        sourceCode: "https://github.com/kumenger/book-serach-engine-fullstack"
+    },
+    {
         videoSrc: "https://www.youtube.com/embed/8eGOKFtx13U",
         projectName: "JavaScript Quiz",
         deployedUrl: "https://kumenger.github.io/coding-quiz-challenge/",
@@ -41,7 +48,8 @@ let projectCollection = [
         projectName: "The Weather DashBoard",
         deployedUrl: "https://kumenger.github.io/weather-application/",
         sourceCode: "https://github.com/kumenger/weather-application"
-    }
+    },
+   
 ]
 const Projects = () => {
 
