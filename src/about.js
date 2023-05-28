@@ -39,7 +39,7 @@ const About = () => {
                 <font>Arba Minch University</font>
               </a>{' '}
             </p>
-            <p  style={{ fontFamily: 'Monoton', color: 'rgb(243, 200, 243)',}}>Credentials/Educational Recors</p>
+            <p  style={{ fontFamily: 'Monoton', color: 'rgb(243, 200, 243)',}}>Credentials/Educational Records</p>
             <ul style={{fontSize:"18px"}}>
               <li> <a  className="link"
               href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
