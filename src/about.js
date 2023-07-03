@@ -4,7 +4,7 @@ const About = () => {
 
 
       <div className=" a   " >
-        
+        <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="ed491bc3-a2c6-411c-86a8-e75321c22896" data-share-badge-host="https://www.credly.com"></div><script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>
         <div className="row aboutholder ">
           <div className="  col-xs-12 col-s-12 offset-md-1 col-md-4 bounce-1  d-flex justify-content-center  " style={{borderRight:"2px solid pink"}}>
             <img
@@ -42,7 +42,7 @@ const About = () => {
             <p  style={{ fontFamily: 'Monoton', color: 'rgb(243, 200, 243)',}}>Credentials/Educational Records</p>
             <ul style={{fontSize:"18px"}}>
               <li> <a  className="link"
-              href="https://www.linkedin.com/in/kumenger-beyene-3031a515b/"
+              href="https://www.credly.com/badges/ed491bc3-a2c6-411c-86a8-e75321c22896/public_url"
               target="_blank"
               rel="noreferrer"
             >
